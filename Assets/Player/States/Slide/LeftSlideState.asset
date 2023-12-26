@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dbc4211953619c4bba35b19e0bff5e1, type: 3}
+  m_Name: LeftSlideState
+  m_EditorClassIdentifier: 
+  runner: {fileID: 0}
+  player: {fileID: 0}
+  maxSpeed: 5
+  acceleration: 0.05
+  PressOtherDirAccel: 0
+  rb: {fileID: 0}
+  IdleState: {fileID: 11400000, guid: 47d3bc609ae57194ba76caf0073108b4, type: 2}
+  FallingState: {fileID: 11400000, guid: 3f868b51c329a29459ebb359eaa6176a, type: 2}
+  JumpState: {fileID: 11400000, guid: b155a1b3a1182f841a200ac0591c82bc, type: 2}
+  DashState: {fileID: 11400000, guid: 767c063b57b524b42918b9839f4a879e, type: 2}
+  dashStopPower: 1.5
+  JumpOutDashState: {fileID: 11400000, guid: 37e4dec044bbce147b1b9c6614cb4730, type: 2}
+  ExtraSlideJumpDistance: 0

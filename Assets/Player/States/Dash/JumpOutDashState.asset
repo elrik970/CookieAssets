@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0952def3add41f044b33ef3ff20d7e53, type: 3}
+  m_Name: JumpOutDashState
+  m_EditorClassIdentifier: 
+  runner: {fileID: 0}
+  player: {fileID: 0}
+  maxSpeed: 5
+  acceleration: 0.05
+  deAccel: 0.005
+  JumpForce: 12
+  gravity: 3
+  rb: {fileID: 0}
+  RaycastSize: 0.2
+  FallingState: {fileID: 11400000, guid: 3f868b51c329a29459ebb359eaa6176a, type: 2}
+  IdleState: {fileID: 11400000, guid: 47d3bc609ae57194ba76caf0073108b4, type: 2}
+  DashState: {fileID: 11400000, guid: 767c063b57b524b42918b9839f4a879e, type: 2}
+  CloseToGround: 0.1
+  VariableJumpHeightMult: 1
+  GroundLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
